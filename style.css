@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #1f2937;
+  background-color: #f9fafb;
+}
+
+header {
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+nav {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a { 
+  color: #111827;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 autp;
+  padding: 40px 20px;     /*padding: top-bottom left-right;*/
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+#hero {
+  padding: 80px 0;
+}
+
+#hero h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+#hero p {
+  max-width: 600px;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+#hero a {
+  display: inline-block;
+  background-color: #111827;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+#about p {
+  max-width: 700px;
+  margin-bottom: 12px;
+}
+
+#skills ul {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+#skills li {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  padding: 10px 14px;
+  border-radius: 999px;
+}
+
